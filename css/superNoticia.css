@@ -1,0 +1,143 @@
+/*Limpar formatações padrão*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #f3f3f3;
+  background-image: url(imgs/supergirlnot.jpg);
+  background-size: cover;
+}
+
+#navegacao {
+  background: rgb(0, 0, 0);
+  background-image: url(imgs/test.jpg);
+  background-size: cover;
+  border-bottom: 0px solid #d8d8d8;
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+#meulink {
+  color: rgb(255, 255, 255);
+}
+
+#area {
+  width: 720px;
+  margin: 0 auto;
+  background-color: rgb(91, 0, 175);
+}
+
+#area-principal {
+  width: 720px;
+  margin: 55px auto 10px auto;
+}
+
+#logo {
+  float: left;
+}
+
+#menu {
+  float: right;
+  padding: 10px 0;
+  color: #fff;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+#postagem {
+  background-color: #060707;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  margin-left: 55px;
+}
+
+ul {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+h2 {
+  color: #ffffff;
+}
+.preto {
+  color: rgb(187, 10, 10);
+}
+.branco {
+  color: gold;
+}
+.card {
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  size: 1000px;
+  float: left;
+  margin: auto;
+  margin-left: 315px;
+  margin-right: 315px;
+}
+
+/*******************
+    ******Formatação do menu*******/
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #b9c941;
+}
+
+a:link {
+  color: #838383;
+}
+
+a:visited {
+  color: #838383;
+}
+
+a:hover {
+  color: #fff;
+  background: none;
+}
+
+a:active {
+  color: #fff;
+}
+
+.verde {
+  color: #b40e0e;
+}
+
+.data-postagem {
+  font-size: 14px;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.img-postagem {
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+.postado {
+  border-left: 5px solid #d8d8d8;
+  padding-left: 5px;
+  display: block;
+  margin-top: 10px;
+  color: #ffffff;
+}
+p {
+  color: #fff;
+}
